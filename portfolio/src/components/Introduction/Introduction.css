@@ -1,0 +1,58 @@
+.intro .intro-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.intro .intro-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+}
+.intro-content {
+  margin-top: 30px;
+}
+.intro .intro-content {
+  text-align: center;
+  position: absolute;
+}
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.intro .overlay-itro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.9;
+}
+.display-table {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.social {
+  position: absolute;
+  margin-top: 20px;
+  display: flex;
+  bottom: 60px;
+}
+.social i {
+  padding-right: 30px;
+  font-size: 25px;
+  color: #9a9b9c;
+}
+.social i:hover {
+  color: #ffffff;
+}
