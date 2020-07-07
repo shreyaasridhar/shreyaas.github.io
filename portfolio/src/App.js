@@ -3,13 +3,14 @@ import "./App.css";
 import Introduction from "./components/Introduction/Introduction";
 import Timeline from "./components/Timeline/Timeline";
 import Navigator from "./components/Navigator/Navigator";
+import Background from "./components/Background";
 
 function App() {
   return (
-    <div>
-      <Navigator />
-      <Introduction />
-      <Timeline />
+    <div>s
+      <Background>
+        
+      </Background>
     </div>
   );
 }

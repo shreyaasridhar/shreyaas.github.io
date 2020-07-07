@@ -29,51 +29,17 @@ class Introduction extends Component {
               <ReactTypingEffect
                 className="intro-subtitle"
                 text={[
-                  "Student @ USC",
-                  "Web Developer",
-                  "Frontend Developer",
+                  "Full-Stack Web Developer",
+                  "Master in CS USC",
                   "Python Programmer",
                   "VR Enthusiast",
-                  "Singer",
-                  "Upcoming Flutist",
+                  "Singer"
                 ]}
                 speed={80}
                 eraseDelay={800}
               />
             </Container>
           </div>
-        </div>
-        <div className="social">
-          <a
-            href="https://github.com/naaficodes"
-            target="https://www.linkedin.com/in/shreyaa-sridhar/"
-          >
-            <i className="fab fa-github"></i>
-          </a>
-          <a
-            href="https://Instagram.com/iam_naafi"
-            target="https://www.linkedin.com/in/shreyaa-sridhar/"
-          >
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a
-            href="https://www.facebook.com/abdul.w.naafi"
-            target="https://www.linkedin.com/in/shreyaa-sridhar/"
-          >
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a
-            href="https://Linkedin.com/in/naafi"
-            target="https://www.linkedin.com/in/shreyaa-sridhar/"
-          >
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-          <a
-            href="https://medium.com/@iam_naafi"
-            target="https://www.linkedin.com/in/shreyaa-sridhar/"
-          >
-            <i className="fab fa-medium-m"></i>
-          </a>
         </div>
       </div>
     );
